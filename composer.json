@@ -1,0 +1,16 @@
+{
+    "name": "Cache Composer packages",
+    "description": "Your package description",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Your\\Namespace\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
